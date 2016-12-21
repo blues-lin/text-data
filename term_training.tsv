@@ -1,0 +1,133 @@
+4/UNIT /UNIT 21/UNIT -/UNIT 5/UNIT /UNIT 20/UNIT 光世代/NOUN 第一銀行/ENTITY 轉帳/VERB 繳費/VERB	生活費
+Chromecast/NOUN	電子用品
+Dannys/NOUN 沙拉/NOUN 刷/VERB 美國運通/ENTITY	正餐 食物
+Drink/NOUN	飲料 食物
+Ikea/NOUN	大賣場
+Sleek/NOUN 腮紅/NOUN 刷/VERB 第一銀行/ENTITY	生活用品
+Uniqlo/NOUN 刷/VERB 美國運通/ENTITY	衣物
+上海/NOUN 生煎包/NOUN	食物
+下午茶/NOUN	食物 正餐
+中餐/NOUN	食物 正餐
+丸作/NOUN	飲料 食物
+代墊/VERB 公司/NOUN 計程車/NOUN 費/NOUN	交通
+停車費/NOUN	交通
+健身/NOUN	娛樂
+全聯/NOUN	大賣場
+加油/NOUN	交通
+北安/NOUN 診所/NOUN	醫療
+午餐/NOUN	正餐 食物
+午餐/NOUN +/NOUN 拿鐵/NOUN	正餐 食物 飲料
+午餐/NOUN +/NOUN 飲料/NOUN	正餐 食物 飲料
+午餐/NOUN 咖啡/NOUN	正餐 食物 飲料
+午餐/NOUN 涼麵/NOUN	正餐 食物
+午餐/NOUN 游泳/NOUN	娛樂
+午餐/NOUN 麵/NOUN	正餐 食物
+可樂/NOUN	食物 飲料
+和民/NOUN	食物
+咖啡/NOUN	飲料 食物
+咖啡/NOUN 2/NOUN	食物 飲料
+咖啡/NOUN 冰沙/NOUN	食物 飲料
+咖啡/NOUN 冰沙/NOUN	飲料 食物
+咖啡/NOUN 午餐/NOUN	飲料 正餐 食物
+啤酒/NOUN	飲料
+宵夜/NOUN	食物
+家樂福/NOUN	大賣場
+家樂福/NOUN 刷/VERB ㄧ銀/ENTITY	大賣場
+愛買/NOUN	大賣場
+捷運/NOUN	交通
+早午餐/NOUN	食物 正餐
+早餐/NOUN	正餐 食物
+早餐/NOUN 昨天/ADJ	正餐 食物
+星巴克/NOUN	食物 飲料
+昨/ADJ 晚上/ADJ 小黃/NOUN	交通
+昨/ADJ 晚餐/NOUN	正餐 食物
+昨天/ADJ 下午茶/NOUN	食物
+昨天/ADJ 咖啡/NOUN	飲料 食物
+昨天/ADJ 家樂福/NOUN	大賣場
+昨天/ADJ 晚餐/NOUN	正餐 食物
+昨天/ADJ 游泳/NOUN	娛樂
+晚餐/NOUN	正餐 食物
+晚餐/NOUN 水餃/NOUN	正餐 食物
+晚餐/NOUN 飲料/NOUN	正餐 食物 飲料
+晚餐/NOUN 麥當勞/NOUN	正餐 食物
+晚餐/NOUN 麻膳堂/NOUN	正餐 食物
+果汁/NOUN 優格/NOUN	飲料 食物 飲料
+桌墊/NOUN 刷卡/VERB	生活用品
+機車/NOUN 停車費/NOUN	交通
+每個/ADJ 月/ADJ 健身/NOUN	娛樂
+游泳/NOUN	娛樂
+漢堡王/NOUN	食物
+玩餐/NOUN	食物 正餐
+甜不辣/NOUN	食物
+發票/NOUN 中/VERB	收入
+礦泉水/NOUN	食物 飲料
+禮拜五/ADJ 夜市/NOUN	食物
+租金/NOUN	租金
+第一銀行/ENTITY 刷/VERB viola/NOUN 德國/NOUN 穀物/NOUN	食物
+第一銀行/ENTITY 現金回饋/NOUN	收入
+美式/NOUN 咖啡/NOUN	飲料
+老闆/NOUN 蛋糕/NOUN	食物
+茶葉蛋/NOUN	食物
+莓果/NOUN 優格汁/NOUN	飲料
+蕃茄/NOUN 六顆/UNIT	水果 食物
+蕎麥茶/NOUN	食物 飲料
+蛋糕/NOUN	零食 食物
+運動/NOUN 用品/NOUN	健身 運動用品
+過路費/NOUN 三天/ADJ 全部/O	交通
+隱形眼鏡/NOUN 8/UNIT 盒/UNIT	生活用品
+電影/NOUN	娛樂
+韓式/NOUN 炸雞/NOUN 小吃/NOUN	食物
+飲料/NOUN	飲料
+餐凳/NOUN 刷/VERB 第一銀行/ENTITY 卡/ENTITY	生活用品
+麥當勞/NOUN	食物 正餐
+黑糖冰/NOUN	食物
+思辨賽局/NOUN	教育
+網路/NOUN 費/NOUN	生活費
+公車/NOUN	交通
+三顧茅廬/NOUN	食物
+BUS/NOUN	交通
+MRT/NOUN	交通
+Costco/NOUN	大賣場
+海灘鞋/NOUN	衣物
+運動鞋/NOUN	衣物
+南山人壽/NOUN 保險費/NOUN	投資
+昨晚/NOUN 水易/NOUN 喜酒/NOUN 紅包/NOUN	禮金
+課後/NOUN 輔導/NOUN 費用/NOUN	教育
+無籽/NOUN 葡萄/NOUN	水果 食物
+自來水費/NOUN	生活費
+1050608/UNIT ~/UNIT 1050808/UNIT 自來水費/NOUN	生活費
+海灘鞋/NOUN +/NOUN 運動鞋/NOUN	衣物
+7-11/NOUN 冰棒/NOUN	零食 食物
+永和豆漿/NOUN	食物
+亞克/NOUN 麵包/NOUN	食物
+麵包/NOUN	食物
+葡萄/NOUN	水果 食物
+看醫生/NOUN	醫療
+禮金/NOUN	禮金
+荔香/NOUN 綠茶/NOUN	食物 飲料
+紅茶/NOUN	食物 飲料
+電費/NOUN	生活費
+水費/NOUN	生活費
+網路費/NOUN	生活費
+信用卡費/NOUN	生活費
+課後輔導/NOUN 費用/NOUN	學費
+冒煙的喬/NOUN	食物
+紅/NOUN 茶/NOUN	飲料 食物
+烏龍/NOUN 茶/NOUN	飲料 食物
+綠/NOUN 茶/NOUN	飲料 食物
+蕎麥/NOUN 茶/NOUN	飲料 食物
+鬍鬚張/NOUN	食物
+紅茶/NOUN	飲料 食物
+綠茶/NOUN	飲料 食物
+搭車/NOUN	交通
+荔香/NOUN 綠茶/NOUN	飲料 食物
+鼎泰豐/NOUN	食物
+百八漁場/NOUN	食物
+鹽水雞/NOUN	食物
+韓式/NOUN 炸雞/NOUN 小吃/NOUN	食物
+家用/NOUN	生活費
+金園/NOUN 泡菜/NOUN	食物
+吉野家/NOUN	食物
+Subway/NOUN	食物
+滷味/NOUN	食物
+捷運/NOUN 儲值/NOUN	交通
