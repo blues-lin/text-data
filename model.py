@@ -7,10 +7,11 @@ from keras.layers import Dropout
 from keras.layers import Flatten
 from keras.constraints import maxnorm
 from keras.optimizers import Adam
-from keras.layers.convolutional import Convolution1D
-from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Convolution2D
+from keras.layers.convolutional import MaxPooling2D
 
 # Prepare training data.
+print("Preparing Data.")
 from lib import vectorize
 from lib import text_searcher
 
@@ -44,47 +45,42 @@ for terms in training_terms:
 
 
 arrayList = []
+X_samples = []
+y_samples = []
 for data in training_data:
     x = vec.vectorize(data[0], TEXT_LENGTH)
     y = vec.vectorizeLabel(data[1])
-    arrayList.append((x, y))
+    X_samples.append(x)
+    y_samples.append(y)
 
 shuffle(arrayList)
 nb_test = int(len(arrayList) * test_percent)
 
-X_train = []
-y_train = []
-X_test = []
-y_test = []
-
-for data in arrayList[:nb_test]:
-    X_test.append(data[0])
-    y_test.append(data[1])
-
-for data in arrayList[nb_test:]:
-    X_train.append(data[0])
-    y_train.append(data[1])
+X_train = np.array(X_samples[nb_test:])
+y_train = np.array(y_samples[nb_test:])
+X_test = np.array(X_samples[:nb_test])
+y_test = np.array(y_samples[:nb_test])
 
 print("Loaded training data: {}".format(len(training_terms)))
 print("Convert to docs: {}".format(len(training_data)))
-print("Array shape: x:{}, y:{}".format(arrayList[0][0].shape, arrayList[0][1].shape))
+print("Array shape: x:{}, y:{}".format(X_samples[0].shape, y_samples[0].shape))
 
 
 # Model hyperparameter setting.
 NB_FILTER = 32
 NB_GRAM = 2
 
-input_shape = arrayList[0][0].shape
-output_shape = arrayList[0][1].shape
+input_shape = X_samples[0].shape
+output_shape = y_samples[0].shape
 nb_char = input_shape[0]
-nb_classes = arrayList[0][1].shape[0]
+nb_classes = y_samples[0].shape[0]
 
 epochs = 4
 batch_size = 32
 
 # Create the model
 model = Sequential()
-model.add(Convolution2D(NB_FILTER, nb_char, NB_GRAM, input_shape=(1,) + input_shape, border_mode='solid', activation='relu', W_constraint=maxnorm(3)))
+model.add(Convolution2D(NB_FILTER, nb_char, NB_GRAM, input_shape=(1,) + input_shape, border_mode='valid', activation='relu'))
 model.add(MaxPooling2D(pool_size=(1, 99)))
 model.add(Flatten())
 model.add(Dense(64, activation='relu', W_constraint=maxnorm(3)))
@@ -96,6 +92,7 @@ model.compile(loss='categorical_crossentropy', optimizer=Adam, metrics=['accurac
 print(model.summary())
 
 # Fit the model
+print("Start fitting model.")
 model.fit(X_train, y_train, validation_split=0.15, nb_epoch=epochs, batch_size=batch_size)
 
 # Final evaluation of the model
